@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(archtype:*)",
+      "Bash(cat:*)",
+      "Bash(cd:*)",
+      "Bash(chmod:*)",
+      "Bash(echo:*)",
+      "Bash(git:*)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(python:*)",
+      "Bash(test:*)",
+      "Bash(touch:*)",
+      "Bash(tree:*)",
+      "Edit(.gitignore)",
+      "Edit(**/*)",
+      "Write(**/*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

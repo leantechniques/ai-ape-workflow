@@ -1,0 +1,84 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-10-29",
+  "tags": {
+    "workflow": "Process and workflow documentation for development",
+    "process": "Development process and methodology documentation",
+    "mode": "Development mode documentation (exploration, planning, implementation)",
+    "brief-creation": "Creating structured briefs for work",
+    "exploration": "Exploring architectural options and decisions",
+    "planning": "Planning implementation approach and tasks",
+    "implementation": "Implementation workflow and TDD process",
+    "session-workflow": "Session start and session management processes",
+    "tracking": "Progress tracking and documentation",
+    "template": "Template files for documentation and workflows",
+    "context": "System context and mission documentation",
+    "standards": "Code quality and development standards"
+  },
+  "documents": {
+    "workflow-brief-creation": [
+      "workflow",
+      "process",
+      "brief-creation"
+    ],
+    "workflow-exploration-mode": [
+      "workflow",
+      "mode",
+      "exploration"
+    ],
+    "workflow-planning-mode": [
+      "workflow",
+      "mode",
+      "planning"
+    ],
+    "workflow-implementation-mode": [
+      "workflow",
+      "mode",
+      "implementation"
+    ],
+    "workflow-session-start": [
+      "workflow",
+      "session-workflow"
+    ],
+    "briefs-product-brief-template": [
+      "template",
+      "brief-creation"
+    ],
+    "context-mission": [
+      "context"
+    ]
+  },
+  "sequences": {
+    "first_session": {
+      "docs": [
+        "workflow-session-start"
+      ],
+      "goal": "Understand how to start a session",
+      "use_when": "First time using the workflow system"
+    },
+    "exploration_work": {
+      "docs": [
+        "workflow-exploration-mode",
+        "workflow-brief-creation"
+      ],
+      "goal": "Explore architectural options and decisions",
+      "use_when": "Need to explore architecture or make design decisions"
+    },
+    "planning_work": {
+      "docs": [
+        "workflow-planning-mode",
+        "briefs-product-brief-template"
+      ],
+      "goal": "Plan implementation approach and break down tasks",
+      "use_when": "Have architectural decisions and need to plan implementation"
+    },
+    "implementation_work": {
+      "docs": [
+        "workflow-implementation-mode",
+        "briefs-product-brief-template"
+      ],
+      "goal": "Implement features using TDD workflow",
+      "use_when": "Have a plan and ready to implement"
+    }
+  }
+}
