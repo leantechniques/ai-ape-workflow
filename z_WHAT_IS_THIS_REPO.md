@@ -47,15 +47,15 @@ Most critically, these tools assume human memory: developers remember previous s
 | **Intent/Why** | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ⚠️ | ✅ |
 | **Single Source** | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | **Forcing Functions** | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| **Progress** | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ |
-| **Task Tracking** | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ |
+| **How to Build** | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
+| **Living Doc** | ✅ | ❌ | ❌ | ⚠️ | ⚠️ | ❌ | ❌ |
+| **Multi-Session** | ✅ | ❌ | ❌ | ⚠️ | ⚠️ | ❌ | ❌ |
 | **Explicit Constraints** | ✅ | ❌ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ✅ |
 | **Dependency Map** | ✅ | ❌ | ❌ | ⚠️ | ⚠️ | ❌ | ❌ |
-| **Multi-Session** | ✅ | ❌ | ❌ | ⚠️ | ⚠️ | ❌ | ❌ |
-| **Living Doc** | ✅ | ❌ | ❌ | ⚠️ | ⚠️ | ❌ | ❌ |
 | **Decision Rationale** | ✅ | ❌ | ⚠️ | ❌ | ❌ | ⚠️ | ✅ |
 | **Alternatives Considered** | ✅ | ❌ | ⚠️ | ❌ | ❌ | ⚠️ | ✅ |
-| **How to Build** | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
+| **Progress** | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ |
+| **Task Tracking** | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ |
 | **Scope/Coverage** | Heavy (400-800 lines) | Very Light (5-15) | Medium (100-300) | Light (20-50) | Light (50-150) | Medium (200-400) | Light (50-200) |
 
 > ¹Briefs serve as the single source of truth for AI-driven development. Future work may include automated extraction of completed briefs into traditional artifact formats (User Stories, PRDs, Tech Specs, ADRs, JIRA tickets) for organizations requiring compliance or handoff documentation.
@@ -339,4 +339,5 @@ Phase X → Phase Y (why)
 
 
 **What this proves:** AI can handle 100% of implementation (18k lines of code + 12k lines tests) while human provides strategic guidance only. The workflow is validated by clean metrics (100% test pass rate, one commit per phase) and scales across 23 distinct features without human touching implementation code.
+
 
