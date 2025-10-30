@@ -36,7 +36,7 @@ This brief is an example of what one looked like at the time of it's making. The
 
 **What outcome are we after and why?**
 
-**Build the tokenizer (lexical analyzer)** to convert ArchType render section text into a stream of tokens for parsing.
+**Build the tokenizer (lexical analyzer)** to convert render section text into a stream of tokens for parsing.
 
 **Why**: The walking skeleton uses regex parsing (render-generator.js), but production compiler needs structured token stream for:
 - Recursive parsing (nested `when`, `each`, components)
@@ -79,7 +79,7 @@ This brief is an example of what one looked like at the time of it's making. The
 - **Special**: `COLON`, `COMMA`, `WHITESPACE`, `NEWLINE`, `EOF`
 
 **Syntax constraints**:
-- ArchType render syntax (not JavaScript, not HTML)
+- Render syntax (not JavaScript, not HTML)
 - Handle expressions `{...}` as opaque strings (parser validates later)
 - Whitespace-insensitive (track but don't error on spacing)
 
@@ -270,7 +270,7 @@ This brief is an example of what one looked like at the time of it's making. The
 **Planning Status**: ✅ COMPLETE (2025-10-23)
 
 ### Goal
-Build a character-by-character scanner that tokenizes ArchType render section syntax into a structured token stream with accurate position tracking for error messages.
+Build a character-by-character scanner that tokenizes render section syntax into a structured token stream with accurate position tracking for error messages.
 
 ### Success Criteria
 1. ✅ Can tokenize keywords (`when`, `each`, `as`)
@@ -424,3 +424,4 @@ Build a character-by-character scanner that tokenizes ArchType render section sy
 **Last Updated**: 2025-10-23
 **Status**: Planning complete, ready for implementation
 **Next**: Await explicit approval to commit plan
+
